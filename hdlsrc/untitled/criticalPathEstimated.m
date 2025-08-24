@@ -1,0 +1,13 @@
+open_system('gm_untitled');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'lightblue';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg', 'user2');
+annotate_port('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg', 0, 1, 'cp : 0 ns');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'lightblue';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg/vhdl_approximate_tanh_design_fixpt_slcfg', 'user2');
+annotate_port('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg/vhdl_approximate_tanh_design_fixpt_slcfg', 0, 1, 'cp : 0 ns');

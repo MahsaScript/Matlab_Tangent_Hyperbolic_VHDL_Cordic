@@ -1,0 +1,16 @@
+open_system('untitled');
+open_system('gm_untitled');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'gray';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg/vhdl_approximate_tanh_design_fixpt_slcfg', 'user2');
+annotate_port('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg/vhdl_approximate_tanh_design_fixpt_slcfg', 1, 1, 'Block not characterized');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'gray';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg/vhdl_approximate_tanh_design_fixpt_slcfg', 'user2');
+annotate_port('gm_untitled/vhdl_approximate_tanh_design_fixpt_slcfg/vhdl_approximate_tanh_design_fixpt_slcfg', 1, 1, 'Block not characterized');
+hilite_system('untitled/vhdl_approximate_tanh_design_fixpt_slcfg', 'user2');
+annotate_port('untitled/vhdl_approximate_tanh_design_fixpt_slcfg', 1, 1, 'Block not characterized');
